@@ -1,4 +1,4 @@
-# BlueT0m Portfolio   
+# Portfolio   
 
 Site personnel présentant mes projets, mes compétences et mon parcours en développement.  
 Conçu pour être léger, responsive et facilement personnalisable.
@@ -57,4 +57,100 @@ Visualise localement en ouvrant `index.html` dans ton navigateur.
 
 ---
 
-Structure du projet
+## Structure du projet
+
+Directory structure:
+└── bluet0m-portfolio/
+    ├── README.md
+    ├── contact.html
+    ├── contact_process.php
+    ├── index.html
+    ├── LICENSE
+    ├── prepros-6.config
+    ├── SECURITY.md
+    ├── css/
+    │   └── magnific-popup.css
+    ├── img/
+    │   ├── folder 1.webp
+    │   ├── folder 3.webp
+    │   ├── folder 4.webp
+    │   └── folder 5.webp
+    ├── js/
+    │   ├── contact.js
+    │   ├── jquery.form.js
+    │   ├── mail-script.js
+    │   ├── popper.js
+    │   ├── stellar.js
+    │   └── theme.js
+    ├── scss/
+    │   ├── _banner.scss
+    │   ├── _blog.scss
+    │   ├── _contact.scss
+    │   ├── _elements.scss
+    │   ├── _footer.scss
+    │   ├── _header.scss
+    │   ├── _home.scss
+    │   ├── _mixins.scss
+    │   ├── _predefine.scss
+    │   ├── _reset.scss
+    │   ├── _responsive.scss
+    │   ├── _variables.scss
+    │   ├── style.css
+    │   └── style.scss
+    └── vendors/
+        ├── bootstrap-datepicker/
+        │   ├── bootstrap-select.css
+        │   └── bootstrap-select.js
+        ├── flipclock/
+        │   └── timer.js
+        ├── isotope/
+        │   └── isotope-min.js
+        ├── jquery-ui/
+        │   └── jquery-ui.css
+        ├── lightbox/
+        │   └── simpleLightbox.css
+        ├── linericon/
+        │   ├── style.css
+        │   └── fonts/
+        │       └── Linearicons-Free.woff2
+        ├── nice-select/
+        │   ├── css/
+        │   │   ├── nice-select.css
+        │   │   └── style.css
+        │   └── js/
+        │       └── jquery.nice-select.js
+        └── owl-carousel/
+            └── assets/
+                └── owl.carousel.css
+
+---
+
+## Déploiement
+Option 1 — GitHub Pages
+
+1, Pousse ton code sur la branche main :
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
+
+2. Va dans Settings → Pages
+
+3. Sous Source, choisis `Deploy from a branch`
+
+4. Sélectionne la branche `main`, dossier `/root`, puis Save
+→ Ton portfolio sera disponible à :
+`https://BlueT0m.github.io/portfolio`
+
+Option 2 — Hébergement manuel
+
+Dépose le contenu du dossier sur n’importe quel hébergeur statique :
+Netlify, Vercel, ou un serveur personnel.
+
+---
+
+## Licence
+
+Ce projet est sous licence [MIT License](LICENSE).
+Tu es libre de le modifier, réutiliser ou adapter pour ton usage personnel.
