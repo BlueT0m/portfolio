@@ -85,4 +85,3 @@ Netlify, Vercel, ou un serveur personnel.
 ## Licence
 
 Ce projet est sous licence [MIT License](LICENSE).
-Tu es libre de le modifier, réutiliser ou adapter pour ton usage personnel.
